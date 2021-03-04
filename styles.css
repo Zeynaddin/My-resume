@@ -183,3 +183,54 @@ a.link:hover {
 .dots {
   font-weight: 400;
 }
+
+@media screen and (max-width: 1000px) {
+  body {
+    width: 100%;
+  }
+  .aside {
+    width: 40%;
+    flex: 1;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  .main-info {
+    padding: 10px;
+    flex: 3;
+  }
+  .description {
+    font-size: 80%;
+  }
+
+  .contact,
+  .tech,
+  .soft,
+  .languages {
+    padding-left: 10px;
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+
+  .skill-name {
+    padding-left: 20px;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  .link,
+  .c,
+  .e {
+    font-size: 70%;
+  }
+  .dots {
+    display: none;
+  }
+  .all-together {
+    width: 100%;
+  }
+}
